@@ -64,7 +64,7 @@ workflows:
           context: cicd-demo-dev
           requires:
             - build-and-test
-          filter:
+          filters:
             branches:
               only:
                 - cicd-demo-dev
