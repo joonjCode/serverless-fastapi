@@ -35,7 +35,7 @@ jobs:
           paths:
             - function.zip
 
-  deploy_dev:
+  deploy-dev:
     executor: aws-cli/default
     steps:
     - attach_workspace:
