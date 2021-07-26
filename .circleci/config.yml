@@ -30,7 +30,7 @@ jobs:
       - run:
           name: Add App to Zipfile
           command: zip -g ./function.zip -r app
-      - persis_to_workspace:
+      - persist_to_workspace:
           root: .
           paths:
             - function.zip
