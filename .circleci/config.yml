@@ -54,6 +54,7 @@ jobs:
         name: Deploy new Lambda
         command: aws lambda update-function-code --function-name serverless-fastapi --s3-bucket serverless-ent --s3-key function.zip
 
+
 workflows:  
   build-test-and-deploy:    
     jobs:      
